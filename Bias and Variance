@@ -1,0 +1,39 @@
+regularisation
+cross validation error
+test set error
+
+
+high bias - underfitting
+high variance - overfitting
+algorithm solving high varience problem 
+High variance - hypothese is over fitting
+in high variance setting - getting more training dat is likely to help
+
+High variance with low training set:
+J Train will be low and J CV will be high
+
+High variance with high training set:
+jtrain < Jcv but difference between them remains significant.
+
+If learning algorithm is suffering from high variance, more training data is likely to help.
+
+debugging learning algorithms
+regularised linear regression - test hypothesis using new set of data is unacceptable large error
+	- get more training data (fixes high variance)
+	- try smaller sets of feature (fixes high variance)
+	- try getting additional features (fixes high bias) (current hypothesis is too simple)
+	- adding polynomial features (fixes high bias)
+	- try decreasing lambda (fixes high bias)
+	- increasing lambda (fixes high variance)
+	
+Neural network and overfitting 
+	small neural networks (fewer parameters - more prone to underfitting - high variance)
+	large neural networks ( more parameters, more prone to over fitting - high bias) - use regularisation to address overfitting
+	
+	
+	Model Complexity Effects:
+
+Lower-order polynomials (low model complexity) have high bias and low variance. In this case, the model fits poorly consistently.
+Higher-order polynomials (high model complexity) fit the training data extremely well and the test data extremely poorly. These have low bias on the training data, but very high variance.
+In reality, we would want to choose a model somewhere in between, that can generalize well but also fits the data reasonably well.
+	
