@@ -1,9 +1,11 @@
 # Machine Learning by Stanford University
 
-This is the repository of the programming assignment for the **Coursera, Machine Learning by Stanford University** taught by Andrew Ng.
+This is the repository of the programming assignment for the **Coursera, Machine Learning by Stanford University** taught by Andrew Ng. This is worth reading through if you are struggling with the course or wanting to know the fundamentals of Machine Learning.
 
 Author: **Joseph Cheng**
+
 Programming Language: **Octave**
+
 Completion Date: 08/08/2020
 
 # Files
